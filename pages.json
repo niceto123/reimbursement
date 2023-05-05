@@ -1,0 +1,126 @@
+{
+	"pages": [{
+			"path": "pages/tabBar/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/tabBar/aliPay/aliPay",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tabBar/wechatPay/wechatPay",
+			"style": {
+				"navigationBarTitleText": "111",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tabBar/aliPay/createOrder",
+			"style": {
+				"navigationBarTitleText": "账单详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabBar/aliPay/aliHistory",
+			"style": {
+				"navigationBarTitleText": "aliPay历史记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/aliPay/model",
+			"style": {
+				"navigationBarTitleText": "aliPay模板",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/aliPay/index",
+			"style": {
+				"navigationBarTitleText": "aliPay首页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/ticket/index",
+			"style": {
+				"navigationBarTitleText": "ticket",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/ticket/ticket",
+			"style": {
+				"navigationBarTitleText": "ticket",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/ticket/layout",
+			"style": {
+				"navigationBarTitleText": "layout",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/ticket/layout2",
+			"style": {
+				"navigationBarTitleText": "layout2",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/ticket/layout3",
+			"style": {
+				"navigationBarTitleText": "layout3",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/ticket/layout4",
+			"style": {
+				"navigationBarTitleText": "layout4",
+				"enablePullDownRefresh": false
+			}
+		}
+
+	],
+"globalStyle": {
+	"navigationBarTextStyle": "black",
+	"navigationBarTitleText": "uni-app",
+	"navigationBarBackgroundColor": "#F8F8F8",
+	"backgroundColor": "#F8F8F8",
+	"app-plus": {
+		"background": "#efeff4"
+	}
+},
+"tabBar": {
+	"color": "#7A7E83",
+	"selectedColor": "#3cc51f",
+	"borderStyle": "black",
+	"backgroundColor": "#ffffff",
+	"list": [{
+		"pagePath": "pages/tabBar/index/index",
+		"iconPath": "static/tabBar/home.png",
+		"selectedIconPath": "static/tabBar/vip.png",
+		"text": "ticket"
+	}, {
+		"pagePath": "pages/tabBar/aliPay/index",
+		"iconPath": "static/tabBar/home.png",
+		"selectedIconPath": "static/tabBar/vip.png",
+		"text": "ailiPay"
+	}, {
+		"pagePath": "pages/tabBar/wechatPay/wechatPay",
+		"iconPath": "static/tabBar/home.png",
+		"selectedIconPath": "static/tabBar/vip.png",
+		"text": "wechatPay"
+	}]
+}
+}
